@@ -1,0 +1,2 @@
+export const createStudents = "CREATE TABLE IF NOT EXISTS `refer`.`customer` ( `id` INT NOT NULL AUTO_INCREMENT,`name` VARCHAR(45) NULL,`address` VARCHAR(45) NULL,`tel` VARCHAR(45) NULL,`refer` INT NULL,`memo` VARCHAR(45) NULL,PRIMARY KEY (`id`));";
+export const createClasses = "CREATE TABLE IF NOT EXISTS `refer`.`refer` (`id` INT NOT NULL AUTO_INCREMENT,`refer` VARCHAR(45) NULL, PRIMARY KEY (`id`));";
